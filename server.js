@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors({ origin: 'http://localhost:3000/' }));
 
 // Routes
-app.use('/api/users', require('./routes/userRoutes'));
+app.use('https://vitalife-new-backend.onrender.com/api/users', require('./routes/userRoutes'));
 
 
 // Serve Frontend
